@@ -1,0 +1,34 @@
+.text-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tf-title {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/students.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  width: 100%;
+  height: 20rem;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tf-title > h1 {
+  display: flex;
+  font-size: 6rem;
+}
+
+.tf-text {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin: 3rem 15vw;
+}

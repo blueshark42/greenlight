@@ -1,0 +1,55 @@
+.campaign {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.campaign-text {
+  margin: 0 5rem;
+}
+.categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#cmp-category {
+  color: rgb(36, 173, 59);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: larger;
+}
+
+#cmp-timeleft {
+  /* color: gray; */
+  display: flex;
+  align-items: center;
+}
+
+#money {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#money > p {
+  margin: 0;
+}
+
+.hello {
+  margin-top: 3rem;
+}
+
+#questions {
+  margin: 2rem 10vw;
+}
+
+.campaign-img {
+  width: 50vw;
+  margin-left: 5rem;
+}

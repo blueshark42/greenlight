@@ -1,0 +1,45 @@
+.intro-outside {
+  background-color: rgb(101, 217, 153);
+  height: auto;
+  padding-bottom: 1rem;
+  padding-top: 50px;
+}
+
+.in-card {
+  display: flex;
+  margin: 3rem 0;
+  justify-content: center;
+}
+.card-img {
+  width: 40rem;
+  height: 33rem;
+  object-fit: cover;
+  margin-left: 4rem;
+}
+.intro-text {
+  width: 30%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.subtitle {
+  color: whitesmoke;
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  word-spacing: 0.3rem;
+}
+.content {
+  color: whitesmoke;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+#intro-h2 {
+  font-weight: 600;
+  font-size: 2.5em;
+}

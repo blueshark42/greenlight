@@ -1,0 +1,27 @@
+.cmt-comment {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 10%;
+  margin-top: 1rem;
+  text-align: left;
+  flex-direction: column;
+}
+
+.comment-head {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+#cmt-creator {
+  margin-left: 1rem;
+  background-color: rgb(105, 226, 105);
+  color: white;
+  font-weight: bold;
+  padding: 0.1rem 0.3rem;
+  border-radius: 3px;
+}

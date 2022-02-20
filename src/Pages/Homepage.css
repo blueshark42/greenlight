@@ -1,0 +1,40 @@
+.homepage-col {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#carousel-div {
+  margin-top: 5rem;
+}
+
+#carousel-div > h1 {
+  margin-bottom: 2rem;
+}
+
+.homepage-col-title {
+  margin: 0;
+}
+
+.see-more {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 10vw;
+  font-size: 1.2rem;
+}
+
+.see-more > h1 {
+  margin-bottom: 2rem;
+}
+
+.sm-link {
+  font-weight: bold;
+  text-decoration: none;
+}
