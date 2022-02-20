@@ -8,7 +8,7 @@
 }
 
 #carousel-div {
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 #carousel-div > h1 {
@@ -37,4 +37,8 @@
 .sm-link {
   font-weight: bold;
   text-decoration: none;
+}
+
+#qualities-container {
+  margin-top: 3rem;
 }

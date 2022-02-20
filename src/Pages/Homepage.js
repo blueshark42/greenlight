@@ -32,9 +32,7 @@ function Homepage() {
         their peak and lead the future generation. A lot of students
         unfortunately lack funds necessary for their work or studies. Our goal
         is to provide a place where students can create campaigns and get
-        financial aid from those that wish to help. No paperwork, no legal
-        issues, none of the complexity other sites have, just people helping
-        each other out.
+        financial aid from those that wish to help.
       </TextField>
 
       <Container id="qualities-container">
@@ -134,7 +132,7 @@ function Homepage() {
           <h1>Interested in seing more?</h1>
           <p>
             Interested in seeing more amazing campaigns? Don't worry, we got it.
-            Thank you for being a part of our community and supporting young
+            Thank you for being a part of our community and supporting talented
             people to create a better future.
           </p>
 

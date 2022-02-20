@@ -12,7 +12,7 @@ import Comment from "../Components/Comment";
 import code from "../images/code.png";
 import clock from "../images/alarm-clock.png";
 
-export default class Campaign extends React.Component {
+export default class Campaign2 extends React.Component {
   constructor(props) {
     super(props);
 
@@ -111,7 +111,7 @@ export default class Campaign extends React.Component {
 
         <div id="questions">
           <h1>Details</h1>
-          <Accordion defaultActiveKey="0" flush>
+          <Accordion flush>
             <Accordion.Item eventKey="0">
               <Accordion.Header>Description</Accordion.Header>
               <Accordion.Body>

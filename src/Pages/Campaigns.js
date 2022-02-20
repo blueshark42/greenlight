@@ -14,7 +14,6 @@ const Campaigns = () => {
     navigate(route, { replace: true });
   };
 
-  // ------------------------------------ MOCK DATA
   const projectData = [
     {
       title: "Blueprint2022",
@@ -34,8 +33,13 @@ const Campaigns = () => {
       img: require("../images/potion-header.jpeg"),
       route: "drinknator",
     },
+    {
+      title: "Keep the streets of Bratislava clean",
+      desc: "Help us clean the streets of Bratislava and improve the environment",
+      img: require("../images/bratislava.jpeg"),
+      route: "clean-bratislava",
+    },
   ];
-  // ------------------------------------ END MOCK DATA
 
   return (
     <>
@@ -44,7 +48,7 @@ const Campaigns = () => {
 
       <div id="list">
         <Row xs={1} md={3} className="g-4">
-          {Array.from({ length: 3 }).map((_, idx) => (
+          {Array.from({ length: projectData.length }).map((_, idx) => (
             <Col key={idx}>
               <Card
                 onClick={() => control(projectData[idx].route)}

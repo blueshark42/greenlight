@@ -6,17 +6,18 @@ import Campaigns from "./Pages/Campaigns";
 import Blueprint from "./Pages/Campaign";
 import Laptop from "./Pages/Campaign2";
 import Drinknator from "./Pages/Campaign3";
+import Clean from "./Pages/Campaign4";
+
 import Contact from "./Pages/Contact";
 
 import hackathon from "./images/hackathon.jpeg";
 import laptop from "./images/cs-header.jpeg";
 import potions from "./images/potions.png";
+import bratislava from "./images/bratislava.jpeg";
 
 const Main = () => {
   return (
     <Routes>
-      {" "}
-      {/* The Switch decides which component to show based on the current URL.*/}
       <Route exact path="/" element={<Home />}></Route>
       <Route exact path="/campaigns" element={<Campaigns />}></Route>
       <Route exact path="/contact" element={<Contact />}></Route>
@@ -39,6 +40,13 @@ const Main = () => {
         path="/campaign/drinknator"
         element={
           <Drinknator data={{ raised: 325, required: 325 }} image={potions} />
+        }
+      ></Route>
+      <Route
+        exact
+        path="/campaign/clean-bratislava"
+        element={
+          <Clean data={{ raised: 120, required: 450 }} image={bratislava} />
         }
       ></Route>
     </Routes>

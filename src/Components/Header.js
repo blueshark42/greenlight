@@ -16,6 +16,9 @@ function Header() {
         <Link to="/contact">Contact</Link>
         <Link to="/contact">About</Link>
       </div>
+      <div className="nav-options nav-options2">
+        <Link to="/profile">Profile</Link>
+      </div>
     </header>
   );
 }

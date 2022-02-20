@@ -111,7 +111,7 @@ export default class Campaign extends React.Component {
 
         <div id="questions">
           <h1>Details</h1>
-          <Accordion defaultActiveKey="0" flush>
+          <Accordion flush>
             <Accordion.Item eventKey="0">
               <Accordion.Header>Description</Accordion.Header>
               <Accordion.Body>

@@ -11,7 +11,7 @@ import Comment from "../Components/Comment";
 
 import clock from "../images/alarm-clock.png";
 
-export default class Campaign3 extends React.Component {
+export default class Campaign4 extends React.Component {
   constructor(props) {
     super(props);
 
@@ -47,7 +47,7 @@ export default class Campaign3 extends React.Component {
 
           <div className="campaign-text">
             <div className="categories">
-              <p id="cmp-category">Technology</p>
+              <p id="cmp-category">Environment</p>
               <p id="cmp-timeleft">
                 <img
                   src={clock}
@@ -56,11 +56,11 @@ export default class Campaign3 extends React.Component {
                   style={{ marginRight: "5px" }}
                   alt="clock"
                 ></img>
-                15 days left
+                2 months left
               </p>
             </div>
 
-            <h1>Drinknator 9000</h1>
+            <h1>Help Clean the Streets of Bratislava</h1>
 
             <div className="campaign-fund">
               <div id="money">
@@ -73,19 +73,14 @@ export default class Campaign3 extends React.Component {
               />
 
               <p style={{ marginTop: "1rem" }}>
-                Drinknator 9000 is a machine made by me and by my colleagues at
-                our school. It is a project for a local competition.
-              </p>
-
-              <p style={{ fontWeight: "bold" }}>
-                🎉 Woo! This project has reached the requested amount of funds!
-                🎉
+                We are a students at a high school in Bratislava. We are trying
+                to raise money to clean the streets. There is currently 10 of us
+                along with 4 part-time workers.
               </p>
 
               <div className="d-grid gap-2 hello">
                 <PayPalScriptProvider options={{ "client-id": "test" }}>
                   <PayPalButtons
-                    disabled={true}
                     style={{ layout: "vertical", "color:": "blue" }}
                     createOrder={(_, actions) => {
                       return actions.order.create({
@@ -108,7 +103,7 @@ export default class Campaign3 extends React.Component {
                 </PayPalScriptProvider>
               </div>
 
-              <h5>You've backed with: {this.formatCurrency(30)}</h5>
+              <h5>You've backed with: {this.formatCurrency(5)}</h5>
             </div>
           </div>
         </div>
@@ -120,12 +115,10 @@ export default class Campaign3 extends React.Component {
               <Accordion.Header>Description</Accordion.Header>
               <Accordion.Body>
                 <p>
-                  Drinknator 9000 is a machine that can mix ingredients based on
-                  some user input. The machine then mixes some of the
-                  ingredients and finally pours them out into a cup for the user
-                  to try. The project is made for a local competition and our
-                  team consists of 5 people, mostly people interested in
-                  chemistry.
+                  Me along with a few friends are running a 3 month long project
+                  where we hire people from our school and we clean the streets.
+                  The money is not for us, it's for administrative and legal
+                  things.
                 </p>
               </Accordion.Body>
             </Accordion.Item>
@@ -134,21 +127,8 @@ export default class Campaign3 extends React.Component {
               <Accordion.Header>FAQ</Accordion.Header>
               <Accordion.Body>
                 <p>
-                  <strong>What do you need the money for?</strong> All of the
-                  money would go towards hardware.
-                </p>
-                <p>
-                  <strong>Who are the members in your team?</strong>
-                  <br />
-                  Mallory - Chemist
-                  <br />
-                  Alice - Software
-                  <br />
-                  Bob - Hardware and Chemistry
-                  <br />
-                  Heidi - Chemistry and Research
-                  <br />
-                  Oscar - Resarch
+                  <strong>What do you need the money for?</strong>{" "}
+                  Administrative and legal things
                 </p>
               </Accordion.Body>
             </Accordion.Item>
@@ -156,29 +136,17 @@ export default class Campaign3 extends React.Component {
             <Accordion.Item eventKey="2">
               <Accordion.Header>Updates</Accordion.Header>
               <Accordion.Body>
-                <Comment creator="Team Chemix" time="Feb 19, 2022">
-                  Wow! We reached our requested goal in under 48 hours! Amazing!
-                  <br />
-                  Thanks everyone so much for the support. We will keep all of
-                  you updated on the results of our project!
-                </Comment>
-
                 <Comment
-                  creator="Team Chemix"
-                  time="Feb 17, 2022"
+                  creator="KeepBratislavaClean!"
+                  time="Jan 3, 2022"
                   s={{ marginTop: "4rem" }}
                 >
-                  Hi everyone, Mallory here! We are almost done with the
-                  projects. <br />
-                  We have ordered some of the required hardware we were missing.
-                  Now we're just waiting for our developers to finish, then we
-                  will put the whole thing together, and finally we will test
-                  it.
-                  <br />
-                  <br />
-                  The competition ends on Feb 20, 2022 so we don't have a lot of
-                  time to perfect it. We will make sure the machine is finished
-                  before we start sending out Elixir to our backers! :)
+                  <p>
+                    Happy new years everyone! Last year we managed to clean up
+                    to 2.000 kg of trash! Thanks everyone for the ongoing
+                    support. We are proudly announcing that we're extending our
+                    project by 2 months.
+                  </p>
                 </Comment>
               </Accordion.Body>
             </Accordion.Item>
@@ -196,58 +164,16 @@ export default class Campaign3 extends React.Component {
             <CardGroup>
               <Card>
                 <Card.Body>
-                  <Card.Title>Odd Elixir</Card.Title>
+                  <Card.Title>Cleanup Crew</Card.Title>
                   <Card.Text>
                     <p>
-                      Your support helped a team of 5 students do what they have
-                      always dreamt about. Thank you for believing in us!
+                      Thank you for supporting us and keeping the environment
+                      clean!
                     </p>
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
                   <small className="text-muted">Pledge $1 or more</small>
-                </Card.Footer>
-              </Card>
-              <Card>
-                <Card.Body>
-                  <Card.Title>Tasty Elixir</Card.Title>
-                  <Card.Text>
-                    We will send you one personalised cup of our mystery elixir
-                  </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                  <small className="text-muted">Pledge $15 or more</small>
-                </Card.Footer>
-              </Card>
-              <Card>
-                <Card.Body>
-                  <Card.Title>Bubblegum Elixir</Card.Title>
-                  <Card.Text>
-                    <p>All of the previous rewards</p>
-                    <p>
-                      We will send you some of the specifications about our
-                      project
-                    </p>
-                  </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                  <small className="text-muted">Pledge $30 or more</small>
-                </Card.Footer>
-              </Card>
-
-              <Card>
-                <Card.Body>
-                  <Card.Title>Beaver Elixir</Card.Title>
-                  <Card.Text>
-                    <p>All of the previous rewards</p>
-                    <p>
-                      We will send you all of the resarch papers,
-                      specifications, source code and pictures of our machine
-                    </p>
-                  </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                  <small className="text-muted">Pledge $50 or more</small>
                 </Card.Footer>
               </Card>
             </CardGroup>

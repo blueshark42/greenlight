@@ -58,7 +58,9 @@ function Footer() {
 
       <div className="ft-content ft-name-section">
         <h1>Greenlight</h1>
-        <p>A project made for MIT Blueprint 2022! Thanks thanks!</p>
+        <p>
+          Boost the future generation. A project made for MIT Blueprint 2022.
+        </p>
         <p style={{ marginTop: "2rem" }}>Enjoy the rest of your day!</p>
       </div>
     </div>
