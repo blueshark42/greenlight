@@ -13,7 +13,7 @@ function Footer() {
             Home
           </Link>
           <Link className="link" to="/campaigns">
-            Campaigns
+            Explore
           </Link>
           <Link className="link" to="/contact">
             Contact
@@ -34,12 +34,15 @@ function Footer() {
           <Link className="link" to="/">
             Virtual
           </Link>
+          <Link className="link" to="/">
+            Other
+          </Link>
         </div>
 
         <div className="ft-content">
           <h2 className="ft-left-title">About</h2>
           <Link className="link" to="/">
-            Backing campaigns
+            Backing & Creating campaigns
           </Link>
           <Link className="link" to="/">
             Terms of Service

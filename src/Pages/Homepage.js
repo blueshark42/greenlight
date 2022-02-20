@@ -11,7 +11,10 @@ import cube3d from "../images/cube3d.gif";
 import fairHand from "../images/fair-hand.gif";
 import techSupport from "../images/tech-support.gif";
 
+import blueprint from "../images/bp-header.png";
 import code from "../images/code.png";
+import potions from "../images/potion-header.jpeg";
+
 import crowdfund from "../images/cf-img.png";
 
 import "./Homepage.css";
@@ -100,27 +103,28 @@ function Homepage() {
         <h1>Check out some campaigns!</h1>
         <Carousel>
           <Carousel.Item>
-            <img className="d-block w-100" src={code} alt="First slide" />
+            <img className="d-block w-100" src={blueprint} alt="First slide" />
             <Carousel.Caption>
-              <h3>MacBook Pro for School</h3>
-              <p>MacBook notebook to help me study computer science</p>
+              <h3>Blueprint2022 – HackMIT's High School Hackathon</h3>
+              <p>Back the best hackathon on the planet!</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="d-block w-100" src={code} alt="Second slide" />
 
             <Carousel.Caption>
-              <h3>CLion license</h3>
-              <p>I'd like a CLion license so I could work on my projects</p>
+              <h3>Laptop for School</h3>
+              <p>Help me afford a new laptop to help me study CS.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100" src={code} alt="Third slide" />
+            <img className="d-block w-100" src={potions} alt="Third slide" />
 
             <Carousel.Caption>
-              <h3>Supertoast Games</h3>
+              <h3>Drinknator 9000</h3>
               <p>
-                We need some investors for our new startup company at our school
+                Drinknator 9000 is a machine that can create seemingly random,
+                but always tasty tasty drinks!
               </p>
             </Carousel.Caption>
           </Carousel.Item>

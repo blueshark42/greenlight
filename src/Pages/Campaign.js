@@ -48,7 +48,7 @@ export default class Campaign extends React.Component {
 
           <div className="campaign-text">
             <div className="categories">
-              <p id="cmp-category">Technology</p>
+              <p id="cmp-category">Virtual</p>
               <p id="cmp-timeleft">
                 <img
                   src={clock}
@@ -284,7 +284,7 @@ export default class Campaign extends React.Component {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <small className="text-muted">Pledge $15 or more</small>
+                  <small className="text-muted">Pledge $25 or more</small>
                 </Card.Footer>
               </Card>
               <Card>
@@ -300,7 +300,7 @@ export default class Campaign extends React.Component {
                   </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                  <small className="text-muted">Pledge $25 or more</small>
+                  <small className="text-muted">Pledge $75 or more</small>
                 </Card.Footer>
               </Card>
             </CardGroup>

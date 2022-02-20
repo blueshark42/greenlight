@@ -11,7 +11,6 @@ import Comment from "../Components/Comment";
 
 import code from "../images/code.png";
 import clock from "../images/alarm-clock.png";
-import { ThemeConsumer } from "react-bootstrap/esm/ThemeProvider";
 
 export default class Campaign extends React.Component {
   constructor(props) {
